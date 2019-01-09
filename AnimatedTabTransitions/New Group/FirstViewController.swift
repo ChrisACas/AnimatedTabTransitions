@@ -15,6 +15,10 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+//    @IBAction func swipeToSecondView(_ sender: Any) {
+//        self.present(SecondViewController, animated: true, completion: nil)
+//    }
+    
 }
+
 

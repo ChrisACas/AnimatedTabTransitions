@@ -15,6 +15,8 @@
 		8362B50221E3D54900BAFAB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8362B50021E3D54900BAFAB5 /* LaunchScreen.storyboard */; };
 		8362B50D21E3D54900BAFAB5 /* AnimatedTabTransitionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362B50C21E3D54900BAFAB5 /* AnimatedTabTransitionsTests.swift */; };
 		8362B51821E3D54900BAFAB5 /* AnimatedTabTransitionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362B51721E3D54900BAFAB5 /* AnimatedTabTransitionsUITests.swift */; };
+		8362B52721E3D77000BAFAB5 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362B52621E3D77000BAFAB5 /* TabBarController.swift */; };
+		8362B52921E3EF2B00BAFAB5 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8362B52821E3EF2B00BAFAB5 /* Interactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8362B51321E3D54900BAFAB5 /* AnimatedTabTransitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedTabTransitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8362B51721E3D54900BAFAB5 /* AnimatedTabTransitionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabTransitionsUITests.swift; sourceTree = "<group>"; };
 		8362B51921E3D54900BAFAB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8362B52621E3D77000BAFAB5 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		8362B52821E3EF2B00BAFAB5 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,13 @@
 		8362B4F421E3D54600BAFAB5 /* AnimatedTabTransitions */ = {
 			isa = PBXGroup;
 			children = (
+				8362B52521E3D71F00BAFAB5 /* New Group */,
 				8362B4F521E3D54600BAFAB5 /* AppDelegate.swift */,
-				8362B4F721E3D54600BAFAB5 /* FirstViewController.swift */,
-				8362B4F921E3D54600BAFAB5 /* SecondViewController.swift */,
 				8362B4FB21E3D54600BAFAB5 /* Main.storyboard */,
 				8362B4FE21E3D54900BAFAB5 /* Assets.xcassets */,
 				8362B50021E3D54900BAFAB5 /* LaunchScreen.storyboard */,
 				8362B50321E3D54900BAFAB5 /* Info.plist */,
+				8362B52821E3EF2B00BAFAB5 /* Interactor.swift */,
 			);
 			path = AnimatedTabTransitions;
 			sourceTree = "<group>";
@@ -126,6 +130,16 @@
 				8362B51921E3D54900BAFAB5 /* Info.plist */,
 			);
 			path = AnimatedTabTransitionsUITests;
+			sourceTree = "<group>";
+		};
+		8362B52521E3D71F00BAFAB5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				8362B52621E3D77000BAFAB5 /* TabBarController.swift */,
+				8362B4F721E3D54600BAFAB5 /* FirstViewController.swift */,
+				8362B4F921E3D54600BAFAB5 /* SecondViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8362B4FA21E3D54600BAFAB5 /* SecondViewController.swift in Sources */,
+				8362B52721E3D77000BAFAB5 /* TabBarController.swift in Sources */,
+				8362B52921E3EF2B00BAFAB5 /* Interactor.swift in Sources */,
 				8362B4F621E3D54600BAFAB5 /* AppDelegate.swift in Sources */,
 				8362B4F821E3D54600BAFAB5 /* FirstViewController.swift in Sources */,
 			);
